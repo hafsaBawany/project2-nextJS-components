@@ -1,0 +1,30 @@
+.hero {
+  background-color: #e0f0ff; 
+  padding: 140px;
+    text-align: center;
+    margin-top: 45px;
+    
+}
+.hero h2 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #003060;
+}
+
+  

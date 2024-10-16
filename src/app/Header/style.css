@@ -1,0 +1,76 @@
+.header {
+  background-color: #004080; /* Blue theme */
+  padding: 20px;
+  display: flex; /* Enables Flexbox */
+  justify-content: space-between; /* Ensures the space between h1 and nav */
+  align-items: center; /* Vertically centers items */
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+  flex-grow: 0; /* Heading stays on the left */
+}
+
+.header nav {
+  flex-grow: 1; 
+  text-align: right;
+}
+
+.header ul {
+  list-style: none;
+  margin: 40;
+  padding: 50;
+  display: flex; 
+  justify-content: flex-end; 
+}
+
+.header ul li {
+  margin-left: 20px;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #004080; /* Blue theme */
+  padding: 20px;
+  display: flex; /* Enables Flexbox */
+  justify-content: space-between; /* Ensures the space between h1 and nav */
+  align-items: center; /* Vertically centers items */
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+  flex-grow: 0; /* Heading stays on the left */
+}
+
+.header nav {
+  flex-grow: 1; 
+  text-align: right;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: flex-end; 
+}
+
+.header ul li {
+  margin-left: 20px; 
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  text-decoration: underline;
+}
+
